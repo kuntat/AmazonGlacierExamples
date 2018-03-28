@@ -12,7 +12,7 @@ import com.amazonaws.services.sqs.AmazonSQSClient;
 public class AmazonGlacierDownloadArchive_GettingStarted {
     public static String vaultName = "examplevault";
     public static String archiveId = "Y8zo_wBCxZL7bJvUvnElGCfrkt_qgZBATP_op-6gsIOiEn2VbxcZJJhTbzUdUXrmBwihKdfHho9M5RRQ8FI8BHL1OEBhZaefIxb3wTaVm46QnKRrJMxEvg_e3VgEjGnvDfNeJqdltw";
-    public static String downloadFilePath  = "/Users/ffmobile14/glacierdownload";
+    public static String downloadFilePath  = "uploadFileTest.rtf";
     
     public static AmazonGlacierClient glacierClient;
     public static AmazonSQSClient sqsClient;
